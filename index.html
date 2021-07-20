@@ -19,7 +19,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -41,6 +41,7 @@
       </nav>
    </header>
    <main>
+     <!-- banners -->
        <div class="container  mt-5 pb-5 pt-5 mb-5 " style="background-color:#fceceb;">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -86,6 +87,7 @@
             </div>
           </div>
        </div>
+       <!-- catagoties -->
        <div class="container">
         <div class="row g-3 gy-3 ">
           <div style=" height: 125px;" class="col-12 col-md-6 col-sm-12 col-lg-4 border rounded-3 d-flex align-items-center justify-content-between bg-warning ">
@@ -103,6 +105,7 @@
         </div>
       </div>
       <hr class="mt-5 mb-5">
+      <!-- Shoes catagoties -->
       <div class="container" id="shoes">
         <h1>Shoes :</h1>
           <div class="row">
@@ -139,6 +142,7 @@
           </div>
       </div>
       <hr class="mt-5 mb-5">
+      <!-- Bags catagoties -->
       <div class="container" id="bag">
         <h1>Backpack :</h1>
           <div class="row">
@@ -174,19 +178,24 @@
             </div>
           </div>
       </div>
-      <div class="container bg-danger">
-        <h1>LET'S STAY IN TOUCH</h1>
-        <p>Get updates on sales, specials and more</p>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"></label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <!-- followers -->
+      <section style="height: 250px; background-color:#fceceb;" class="container rounded-3 d-flex align-items-center justify-content-center">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <br>
+          <form class="form-floating">
+            <input type="email" class="form-control fs-5 rounded-pill w-75 ps-2 pb-1" id="floatingInputValue" placeholder="name@example.com" >
+            <label for="floatingInputValue">Your Email</label>
+          </form>
+          <button type="button" style="width: 100px; margin-left: 95px;"  class="btn btn-outline-info align-items-center    mt-2 rounded text-black fw-bold">Follow</button>
         </div>
-          
-        <button type="button" style="background-color: #ff5398;" class="btn btn-md mt-5 rounded text-white">Buy Now</button>
-      </div>
+      </section>
 
    </main>
-
+   <footer class="mt-5 text-center">
+    <p>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
